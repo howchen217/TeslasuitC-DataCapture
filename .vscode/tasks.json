@@ -11,9 +11,9 @@
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe",
         "-I",
-        "D:\\Program Files\\Teslasuit\\Studio\\include",
+        "${fileDirname}\\..\\include",
         "-L",
-        "D:\\Program Files\\Teslasuit\\Studio",
+        "${fileDirname}\\..",
         "-lteslasuit_api"
       ],
       "options": {
